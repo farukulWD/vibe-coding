@@ -1,4 +1,4 @@
-export default function Home() {
+const Home = async () => {
   return (
     <div className="flex flex-col h-screen justify-center items-center">
       <h1 className="text-3xl font-bold text-center">
@@ -6,4 +6,6 @@ export default function Home() {
       </h1>
     </div>
   );
-}
+};
+
+export default Home;
