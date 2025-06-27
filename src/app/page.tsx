@@ -1,9 +1,7 @@
-const Home = async () => {
+const Home = () => {
   return (
     <div className="flex flex-col h-screen justify-center items-center">
-      <h1 className="text-3xl font-bold text-center">
-        Go your journey with AI
-      </h1>
+      <h1 className="text-3xl font-bold text-center">Hello world</h1>
     </div>
   );
 };
